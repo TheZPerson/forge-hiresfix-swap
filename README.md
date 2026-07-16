@@ -43,7 +43,7 @@ Easiest way to do this is to rename the extension folder to something like: 00-f
 3. It's probably best keep the original and modified image at same dimensions; backend may or may not like the mismatch on sizes. 
 
 ## Advanced (follow at your own risk)
-I found the default brush weight to be too thick for lineart adjustments. This can be fixed by making following change in the file:
+I found the default minimum brush weight to be too thick for lineart adjustments. This can be fixed by making following change in the file:
 
 modules_forge/forge_canvas/canvas.js
 
