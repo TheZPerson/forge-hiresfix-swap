@@ -5,8 +5,7 @@
 
 This is an Extension for the Forge Webui and related forks. 
 
-This bare bones extension that allows you to change the target image of the Hires Fix.
-The main use for this is to allow the user to manually fix major problems like extra fingers before upscaling. 
+This bare bones extension that allows you to change the target image of the Hires Fix.<br>The main use for this is to allow the user to manually fix major problems like extra fingers before upscaling. 
 
 This is meant as quick alternative to fixing flaws by inpainting or generating variations or other img2img shenanigans.
 
@@ -23,7 +22,7 @@ Or go to your WebUI folder and manually clone this repo into your extensions fol
 `git clone https://github.com/TheZPerson/sd-forge-custom-image-for-hiresfix`
 
 There is a chance that other extension might overwrite effects of this extension or vice versa.
-To mitigate this it is recommend that this extension is run before other extensions that might modify the target image. 
+<br>To mitigate this it is recommend that this extension is run before other extensions that might modify the target image. 
 
 Easiest way to do this is to rename the extension folder to something like: 00-forge-hiresfix-swap. 
 
@@ -32,7 +31,7 @@ Easiest way to do this is to rename the extension folder to something like: 00-f
 1. Generate an image.
 2. Select image you want to Hires. Fix from the results Gallery, like normal.
 3. Export/Copy to image to a photo editor of your choosing and edit flaws out.
-(If you are on Neo you can just drag&drop the image directly to the Canvas inside extension and edit image there)
+<br>(If you are on Neo you can just drag&drop the image directly to the Canvas inside extension and edit image there)
 4. Import modified image to the Hires.Fix Img Swapper -extension.
 5. While the original image is still selected in the gallery press the Upscale(✨)-button to start the Hires. Fix.
 6. The original Hires. Fix image now gets automatically changed to the edited one. 
@@ -47,7 +46,8 @@ Easiest way to do this is to rename the extension folder to something like: 00-f
 
 ## Compatibility
 
-Tested on fresh installs of Neo.
+Tested to work on fresh installs of __Neo__ and 	__Classic__.
+<br>And (not so fresh intall of) 	__reForge__
 
 Because how simple the extension is, it might work on other forks as well.
-Although I'm not sure if every fork has the Upscale(✨)-button which is fairly essential for the intented workflow. 
+<br>Although I'm not sure if every fork has the Upscale(✨)-button which is fairly essential for the intented workflow. 
