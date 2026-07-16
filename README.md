@@ -16,6 +16,12 @@ Of course, depending on your denoising settings, there is always a chance that A
 
 ## Install
 
+Open yout WebUIs Extension-Tab. Go to Install from URL tab > Paste this repo's URL into the first field > Click Install
+
+Or go to your WebUI folder and manually clone this repo into your extensions folder:
+
+git clone https://github.com/TheZPerson/sd-forge-custom-image-for-hiresfix
+
 There is a chance that other extension might overwrite effects of this extension or vise versa, 
 to mitigate this it is recommend that this extension is run before other extensions that might modify the target image. 
 
