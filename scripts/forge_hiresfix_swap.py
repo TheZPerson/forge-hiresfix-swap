@@ -26,7 +26,7 @@ class Forge_HiresFix_Swap(scripts.Script):
             else:
                 inputImage = gr.Image(type="pil",label="img",show_label=False)
 
-            return [enable, inputImage.background,inputImage.foreground if is_neo else None]
+            return [enable, inputImage.background if is_neo else inputImage ,inputImage.foreground if is_neo else None]
 
     def show(self, is_img2img: bool):
           return scripts.AlwaysVisible if is_img2img is False else False
