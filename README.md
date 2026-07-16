@@ -7,17 +7,17 @@ This is an Extension for the Forge Webui and related forks.
 
 This bare bones extension that allows you to change the target image of the Hires Fix.<br>The main use for this is to allow the user to manually fix major problems like extra fingers before upscaling. 
 
-This is meant as quick alternative to fixing flaws by inpainting or generating variations or other img2img shenanigans.
+This is meant as quick alternative to fixing flaws by inpainting, generating variations or img2img-tab shenanigans.
 
 You can also add or remove objects before upscaling or just use different image entirely (check Tips).
-
-Of course, depending on your denoising settings, there is always a chance that AI will still screw thing up again.
 
 ## Install
 
 Open your WebUIs Extension-Tab. Go to Install from URL tab > Paste this repo's URL into the first field > Click Install
 
-Or go to your WebUI folder and manually clone this repo into your extensions folder:
+Or 
+
+Manually clone this repo into your extensions folder:
 
 `git clone https://github.com/TheZPerson/sd-forge-custom-image-for-hiresfix`
 
