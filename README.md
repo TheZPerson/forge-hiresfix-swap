@@ -1,0 +1,42 @@
+# Hires.Fix Img Swapper
+<img width="400"  alt="5685757920120504912544228158420250403177823025122370-2026-07-15-1845439436" src="https://github.com/user-attachments/assets/2436e543-8482-452b-97dd-9490fb7dd971" />
+
+<img width="400"  alt="Preview Image" src="https://github.com/user-attachments/assets/200fe547-9e61-4bda-b1ac-8b905a415aaf" />
+
+This is an Extension for the Forge Webui and related forks. 
+
+This bare bones extension that allows you to change the target image of the Hires Fix.
+The main use for this is to allow the user to manually fix major problems like extra fingers before upscaling. 
+
+This is meant as quick alternative to fixing flaws by inpainting or generating variations or other img2img shenanigans.
+
+You can also add or remove objects before upscaling or just use different image entirely (check Tips).
+
+Of course, depending on your denoising settings, there is always a chance that AI will still screw thing up again.
+
+## Usage
+
+1. Generate an image.
+2. Select image you want to Hires. Fix from the results Gallery, like normal.
+3. Export/Copy to image to a photo editor of your choosing and edit flaws out.
+(If you are on Neo you can just drag&drop the image directly to the Canvas inside extension and edit image there)
+4. Import modified image to the Hires.Fix Img Swapper -extension.
+5. While the original image is still selected in the gallery press the Upscale(✨)-button to start the Hires. Fix.
+6. The original Hires. Fix image now gets automatically changed to the edited one. 
+7. When the Hires. Fix is done, disable the extension or just remove the modified image from the extension.
+
+## Tips
+1. Newer version of Gradio (like in Neo) allows you to paste images directly from the clipboard with CTRL+V.This saves you the hassle of saving image-files to import them. 
+3. There is no need to get too detailed with your edits. Hires fix/Adetailer are usually enough to fix any leftovers of your messy edits.
+4. It's probably best keep the original and modified image at same dimensions; backend may or may not like the mismatch on sizes. 
+
+
+
+## Compatibility
+
+Still untested for unmodified backends, I don't guarantee that it works for everyone just yet. But it should work with Neo at least.
+
+Because how simple the extension is, I see no reason why it wouldn't work on other forks as well.
+Although I'm not sure if every fork has the Upscale(✨)-button which is fairly essential for the intented workflow. 
+
+Issues may rise with other extensions that also modify the first-pass image.
