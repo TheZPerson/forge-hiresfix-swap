@@ -39,9 +39,18 @@ Easiest way to do this is to rename the extension folder to something like: 00-f
 
 ## Tips
 1. Newer version of Gradio (like in Neo) allows you to paste images directly from the clipboard with CTRL+V.This saves you the hassle of saving image-files to import them. 
-3. There is no need to get too detailed with your edits. Hires fix/Adetailer are usually enough to fix any leftovers of your messy edits.
-4. It's probably best keep the original and modified image at same dimensions; backend may or may not like the mismatch on sizes. 
+2. There is no need to get too detailed with your edits. Hires fix/Adetailer are usually enough to fix any leftovers of your messy edits.
+3. It's probably best keep the original and modified image at same dimensions; backend may or may not like the mismatch on sizes. 
 
+## Advanced (follow at your own risk)
+I found the default brush weight to be too thick for lineart adjustments. This can be fixed by making following change in the file:
+
+modules_forge/forge_canvas/canvas.js
+
+
+`ctx.lineWidth = (this.scribbleWidth / (this.scribbleWidthConsistent ? this.imgScale : 1.0)) * 4;`<br>
+to<br>
+`ctx.lineWidth = (this.scribbleWidth / (this.scribbleWidthConsistent ? this.imgScale : 1.0));`
 
 
 ## Compatibility
